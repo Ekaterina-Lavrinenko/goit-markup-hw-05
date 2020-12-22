@@ -719,7 +719,8 @@ padding: 30px 32px;
   display: block;
 } 
 
-.portfolio-card:hover .portfolio-overlay {
+.portfolio-card:hover .portfolio-overlay,
+.portfolio-card:focus .portfolio-overlay {
   transform: translateY(0);
 }
 
